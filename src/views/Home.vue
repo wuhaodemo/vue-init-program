@@ -1,8 +1,5 @@
 <template>
-  <div class="home">
-    <van-button type="primary">主要按钮</van-button>
-    <div class="item">{{ name }}</div>
-  </div>
+  <div class="home1"></div>
 </template>
 
 <script>
@@ -10,11 +7,7 @@
 
 export default {
   name: 'Home',
-  data() {
-    return {
-      name: 'wuhao'
-    };
-  }
+  components: {}
 };
 </script>
 
