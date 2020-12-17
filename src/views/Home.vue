@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="home1">
     <button @click="show = !show">Toggle</button>
     <transition v-on:before-enter="beforeEnter" v-on:enter="enter" v-on:leave="leave" v-bind:css="false">
@@ -56,5 +57,22 @@ export default {
       console.log(el, done);
     }
   }
+=======
+  <div class="home1"></div>
+</template>
+
+<script>
+// @ is an alias to /src
+
+export default {
+  name: 'Home',
+  components: {}
+>>>>>>> 74309571b286f1e53b6a20daca23fbd7f8f235da
 };
 </script>
+
+<style lang="less" scoped>
+.item {
+  font-size: 33px;
+}
+</style>
