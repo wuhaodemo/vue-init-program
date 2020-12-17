@@ -1,7 +1,6 @@
 <template>
-<<<<<<< HEAD
   <div class="home1">
-    <button @click="show = !show">Toggle</button>
+    <button @click="show = !show">Toggle1-dev-wh</button>
     <transition v-on:before-enter="beforeEnter" v-on:enter="enter" v-on:leave="leave" v-bind:css="false">
       <!-- <img :src="img" alt="" v-if="show" /> -->
       <p v-if="show">demo</p>
@@ -57,17 +56,6 @@ export default {
       console.log(el, done);
     }
   }
-=======
-  <div class="home1"></div>
-</template>
-
-<script>
-// @ is an alias to /src
-
-export default {
-  name: 'Home',
-  components: {}
->>>>>>> 74309571b286f1e53b6a20daca23fbd7f8f235da
 };
 </script>
 
